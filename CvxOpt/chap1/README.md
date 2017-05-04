@@ -1,21 +1,24 @@
 ass: center, middle
 
 # Introduction to Convex Optimization 
-## Part 1
-## Overview of the book
+## Chapter 1, Introduction
 
 ---
 
 # Topics to cover
-### What is convex optimization
-* and how are they different from non convex optimization
+### What is mathematical optimization
+### Least-squares and linear programming
+### Convex optimization
+### How to read the book
 
 
 ---
-## What about it?
-* A
-
-  * A1 
+## What is mathematical optimization ?
+* Can be written in a canonical form
+  * \begin{equation}
+      \text{minimize} \quad & f_0(x)\\
+      \text{such that} f_i(x) \leq b_i, i=1,\dots,m
+    \end{align}
 
 * B 
 

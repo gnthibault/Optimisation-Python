@@ -65,14 +65,6 @@ float: right;
     padding: 0px;
 }
 
-.logo-img {
-    margin-left: 20px;
-    display: inline-block;
-    position: relative;
-    width: 20%;
-    transform: translate(0, -30%);
-}
-
 .logo-img-cscs {
     margin-left: 20px;
     display: inline-block;

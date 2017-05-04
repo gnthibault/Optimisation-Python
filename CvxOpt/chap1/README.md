@@ -15,7 +15,8 @@ ass: center, middle
       \text{minimize} \quad & f_0(x)\\
       \text{such that} f_i(x) \leq b_i, i=1,\dots,m
     $$
-
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
+\\[ \frac{1}{n^{2}} \\]
 * B 
 
   * B1

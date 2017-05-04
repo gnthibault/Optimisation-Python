@@ -7,4 +7,8 @@ And the version that has been used here has been modified by
  -Laurent Condat : http://www.gipsa-lab.grenoble-inp.fr/~laurent.condat/
 Which are well reknown researcher in advanced optimisation technics for signal processing.
 
-The other one are my own work.
+
+
+u may also be interested in some slides design in the framework of a reading group at Eth-Zurich, were  we studied the Convex Optimization book by Boyd and Vandenberg:
+
+[Chapter 1](CvxOpt/chap1/)

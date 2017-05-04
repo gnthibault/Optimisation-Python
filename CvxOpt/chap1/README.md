@@ -11,10 +11,10 @@ ass: center, middle
 ---
 ## What is mathematical optimization ?
 * Can be written in a canonical form
-  * \\[
-      \text{minimize} \quad f_0(x)\\
+  * $$
+      \text{minimize} \quad f_0(x) \\
       \text{such that} \quad f_i(x) \leq b_i, i=1,\dots,m
-    \\] test \\[ \frac{1}{n^{2}} \\]
+    $$
 * B
 
   * B1

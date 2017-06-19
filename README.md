@@ -9,6 +9,6 @@ Which are well reknown researcher in advanced optimisation technics for signal p
 
 
 
-u may also be interested in some slides design in the framework of a reading group at Eth-Zurich, were  we studied the Convex Optimization book by Boyd and Vandenberg:
+You may also be interested in some slides designed in the framework of a reading group at Eth-Zurich, were we studied the Convex Optimization book by Boyd and Vandenberg:
 
 [Chapter 1](CvxOpt/chap1/)

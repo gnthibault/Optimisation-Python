@@ -1,1 +1,5 @@
 *.html
+*.aux
+*.log
+*.pdf
+*.backup

@@ -1,0 +1,136 @@
+\documentclass[a4paper,10pt]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+% Title Page
+\title{Convex Optimization Cheat Sheet}
+\author{}
+
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+
+\section{Topology}
+
+\subsubsection{Open ball of radius r, centered in x:}
+
+  \begin{align}
+    B(x,r) \; , \; r>0 \; = \{ y \; s.t \; d(x,y)<r \} 
+  \end{align}
+
+\subsubsection{Interior:}
+
+  \begin{align}
+    int \; C = \{ x \in C \; s.t \; \exists \; r > 0 | \; B(x,r) \subset C  \} 
+  \end{align}
+
+\subsubsection{Closure:}
+
+  \begin{align}
+    cl \; C = \{ x s.t \; \forall \; r > 0 \; , \; \exists y \; \in \; B(x,r) \; | \; y \in C  \} 
+  \end{align}
+  
+\subsubsection{Boundary:}
+
+  \begin{align}
+    Bd \; C = \{ cl \; C \; \backslash \; int \; C \} 
+  \end{align}
+
+\section{Algebra}
+
+\subsection{Hyperplanes}
+
+\subsubsection{Separating Hyperplane:}
+\begin{align}
+  S = \{ (a,b) \in \mathbb{R}^{n+1}, a \neq \vec{0} \quad s.t \quad a^t x \leq b \; \forall x \in C \quad \text{ and } \quad a^t x \geq b \; \forall x \in D  \}
+\end{align}
+
+\subsubsection{Supporting Hyperplane:}
+\begin{align}
+  S = \{ (a,x_0) \in \mathbb{R}^{n+1}, a \neq \vec{0} \; , x_0 \in \; Bd(C)  \quad s.t \quad a^t x \leq a^t x_0 \; \forall x \in C \}
+\end{align}
+
+\subsection{Cones}
+
+\subsubsection{Cone:}
+  \begin{align}
+    C = \{ x \in C \; s.t \; \forall \theta > 0 \; , \; \theta x \in C  \} 
+  \end{align}
+
+  \subsubsection{Convex Cone:}
+  
+  \begin{align}
+    C = \{ \forall x_1, x_2 \in C \; , \;  \forall \theta_1, \theta_2 \geq 0 \; , \;  \theta_1 x_1 + \theta_2 x_2 \in C \}
+  \end{align}
+
+  \subsubsection{Norm Cone:}
+  
+  \begin{align}
+    C = \{(x, t) \; | \;  \|x\| \leq t\} \in \mathbb{R}^{n+1}
+  \end{align}
+  
+  also reads
+  
+  \begin{align}
+    C &= \{ (\vec{x}, t) \; | \;  \|\vec{x}\|_{A} \leq t \} \in \mathbb{R}^{n+1}\\
+    &= \left\{ \begin{pmatrix} x \\ t \end{pmatrix} \; | \;
+    \begin{pmatrix} \vec{x} \\ t \end{pmatrix}^{t}
+    \begin{pmatrix} A & \vec{0} \\ \vec{0}^t & -1 \end{pmatrix}
+    \begin{pmatrix} \vec{x} \\ t \end{pmatrix} \leq 0, t \geq 0 \right\}
+  \end{align}
+  
+  \subsubsection{Positive semi definite Cone:}
+  
+  \begin{align}
+    S^n_+ = \{ X \in S^n | X \geq 0 \}
+  \end{align}
+  \begin{align}
+    S^n_{++} = \{X \in S^n | X > 0 \}
+  \end{align}
+  
+  \subsubsection{Proper Cone:}
+  
+  A cone $K \in \mathbb{R}^n$  is called a proper cone iff:
+  \begin{enumerate}
+  \item[-] K is convex.
+  \item[-] K is closed.
+  \item[-] K is solid, which means it has nonempty interior.
+  \item[-] K is pointed, which means that it contains no line (or equivalently, $x \in K, − x \in K \Leftrightarrow x = 0$).
+  \end{enumerate}
+
+  \subsubsection{Generalized inequality:}
+
+  \begin{align}
+    x \leq_K y \Leftrightarrow y - x \in K
+  \end{align}
+  strict inequality:  
+  \begin{align}
+    x <_K y \Leftrightarrow y - x \in int \, K
+  \end{align}
+  
+
+\section{Analysis}
+
+\subsubsection{Taylor series for multidimensional objectives}
+
+
+\subsubsection{Convexity}
+
+\subsubsection{Strong Convexity}
+
+\subsubsection{Continuity}
+
+\subsubsection{Lower semi-continuity}
+
+
+\subsubsection{Epigraph}
+
+
+
+
+\end{document}          

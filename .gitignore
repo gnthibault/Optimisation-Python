@@ -1,7 +1,10 @@
-.ipynb_checkpoints
-*.swp
 *.dat
-.map
 *.dot
 *.dot.pdf
+*.fits
+*.ipynb_checkpoints
+*.jpg
+*.map
+*.swp
+*.tar.gz
 

@@ -7,4 +7,4 @@
 *.map
 *.swp
 *.tar.gz
-
+.virtual_documents
